@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Spot Five Differences</title>
+   
+    <link href="/css/style.css" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <script src="scripts/angular.min.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>
+    <script src="scripts/app.js"></script>
+</head>
+<body ng-app="plunker" ng-controller="MainCtrl">
+    <div class="naslov">
+        <h2>Find five diffecences and click them on the left image</h2>
+        <p>Left <span class="number"> {{preostalo}} </span>more to find!</p>
+        <div class="naslov">
+            <b>You found:</b><span ng-show="skriveno1 === true">Small Circle,</span>
+            <span ng-show="skriveno2 === true">Mouth,</span>
+            <span ng-show="skriveno3 === true">Monkey tail,</span>
+            <span ng-show="skriveno4 === true">Butterfly wings,</span>
+            <span ng-show="skriveno5 === true">Monkey hand,</span>
+
+
+        </div>
+    </div>
+    <div class="bigbox">
+        <div id="box1" ng-click="box1()" ng-hide="skriveno1"></div>
+        <div id="box2" ng-click="box2()" ng-hide="skriveno2"></div>
+        <div id="box3" ng-click="box3()" ng-hide="skriveno3"></div>
+        <div id="box4" ng-click="box4()" ng-hide="skriveno4"></div>
+        <div id="box5" ng-click="box5()" ng-hide="skriveno5"></div>
+
+    </div>
+    <div class="naslov alert alert-success" role="alert" ng-show="preostalo === 0"><h2><b>Well Done!</b> You found all the differences :-)</h2></div>
+
+
+</body>
+</html>

@@ -1,0 +1,64 @@
+﻿.bigbox {
+  position:relative;
+  margin: 0 auto;
+  width:1040px;
+  height:340px;
+  background:url("/img/difference.png");
+
+  
+}
+#box1{
+  position:absolute;
+  width:50px;
+  border-radius:50px;
+  height:50px;
+  background:none;
+  top:240px;
+  left:120px;
+}
+#box2{
+  position:absolute;
+  width:50px;
+  height:50px;
+  border-radius:50px;
+  background:none;
+  top:140px;
+  left:160px;
+}
+#box3{
+  position:absolute;
+  width:50px;
+  height:50px;
+  border-radius:50px;
+  background:none;
+  top:220px;
+  left:420px;
+}
+#box4{
+  position:absolute;
+  width:50px;
+  height:50px;
+  border-radius:50px;
+  background:none;
+  top:30px;
+  left:440px;
+}
+#box5{
+  position:absolute;
+  width:50px;
+  height:50px;
+  border-radius:50px;
+  background:none;
+  top:140px;
+  left:400px;
+}
+.naslov {
+    margin:0 auto;
+    text-align: center;
+    width:1000px;
+}
+.number {
+    color:red;
+    font-weight:bold;
+    font-size:18px;
+}
