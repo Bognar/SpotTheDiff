@@ -3,7 +3,7 @@
   margin: 0 auto;
   width:1040px;
   height:340px;
-  background:url("/img/difference.png");
+  background-image:url("../img/difference.png");
 
   
 }
